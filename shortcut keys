@@ -1,0 +1,160 @@
+shortcut keys
+
+new file  = ctrl + n
+navigation = ctrl + k b 'vice versa'
+file tab = ctrl + tab
+close tab = ctrl + w
+new window = alt + shift + '1 2 3 4'
+duplicate new line = ctrl + shift + d
+indention =  ctrl + [ <- , ctrl + ] -> 
+new file = ctrl + p
+
+[
+	{ "keys": ["f10"], "command": "reindent" }
+]
+
+
+#linux
+cd = change directory
+mkdir = create folder
+touch = create file
+ls = list, to look files/folders inside
+rm -r 'filename' = delete file 
+rm -v = update and remove
+mv 'name of folder' 'change name' = change name of folder
+
+
+github
+
+push * data
+
+git init  ->  initiate
+git commit -m "First Commit"
+git config --global user.name "Ralph Jayson D. Guinucud"
+git config --global user.email "ralphguinucud@gmail.com"
+git status -> to know the status
+git log -> logs
+git push -u origin master
+
+pull * data frm github
+git init
+git remote add github "link"
+git pull github master
+
+TCP/IP - Transmission Control Protocol / Internet Protocol
+
+ARPANET - Advanced Research Projects Agency Network
+
+Vint Cert and Bob Kahn are recognized as the fathers of internet.
+
+Application - output
+Internet - process
+Network Interface - physical
+
+MODEM - Modulator-Demodulator
+
+1960's - internet starts
+
+IP 3 functions
+Identification of each device connected to the network
+The format of the messages
+Routing the messags from the source to the destination
+
+subdomain www
+second-level domain asdf
+Top Level Domain .com
+
+Message Format
+Header - Sender's IP address
+Receiver's IP address Protocol Packet, 96bit
+Payload - Data, 896 bits
+Trailer - Data to show end of packet Error correction, 32 bit
+
+HTML commands
+html
+header
+meta charset=utf-8
+h1-h6
+p
+div
+spans
+br
+hr
+strong
+em
+
+HTML TAGS
+
+Document structure
+Text formatting
+Link formatting
+List formatting
+Imgage formatting
+Table
+Forms 
+Html5 sematic tags
+Document info
+Comments
+
+Tags - <"COMMAND">
+attribute <tags 'attribute'>
+Types of html tags
+	HEADINGS
+	-each headings are block elements
+	-provide the title or theme for each section of the page
+	-there are six level (or "ranks") of headings - h1 to h6
+	-Headings of the same level imply equal rank on the page
+
+Do's
+1. Make sure each tag supports its preceding sequential number when using h3,h4,h5, & h6 tags
+
+2. Include only one h1 tag on each page. it should be describe the topic of your page
+
+3. Create a direct correlation between the language used in your h1 header and your title tag
+
+Don't
+1. Use the same heading on every page.
+
+2. Use heading tags solely to increase font size
+
+3. Use heading tags for large bodies of text. (20-70 characters should be enough).
+
+Paragraph
+	-Defines a simple paragraph of text
+	-Block elements
+
+Document Division
+	-Used for grouping and applying block elements
+
+Inline <spans></spans>
+Line break <br>
+Horizontal Rule <hr> -> makes a full line
+
+
+TEXT FORMATTING
+ 
+Strong <strong> 
+Emphasis <em></em>
+Superscript <sup></sup>
+	Used to contain characters that should be superscript such as the suffixes of data or mathematical concept like exponents
+Subscript <sub></sub>
+	Used to contain characters that should be subscript such as foot notes by 
+Abbreviation <abbr></abbr>
+	Defines an abbreviation, and usually includes its full description
+Block Quote <blockquote></blockquote>
+	Used for longer quotes that take up an entire paragraph
+	Usually rendered visually by indentation
+	Can contain other elements
+Quote <q></q>
+	Used for shorter quotes that sit within a paragraph
+Cite
+	Usually goes with <blockquote>
+Insert<ins></ins>
+	Used to show content that has been inserted into a document
+	Usually underlined
+Delete<del></del>
+	Used to show text that has been deleted
+	Usually has a line through it
+Strike<s></s>
+	Indicates something that is no longer accurate or relevant (but that should not be deleted)
+Small <small></small>
